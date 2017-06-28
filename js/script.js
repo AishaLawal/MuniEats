@@ -29,7 +29,7 @@ function addClass2(){
 
   $('.ft').each(function(i){
     setTimeout(function(){
-      $('.ft').eq(i).addClass('fadeInLeft').removeClass("not-here")
+      $('.ft').eq(i).addClass('fadeInLeft').removeClass("not-here");
     }, i *300);
   });
 }
