@@ -1,34 +1,69 @@
 doctype html
 html
   head
-    link(rel="stylesheet",href="css/style.css",type="text/css")
+    link(rel='stylesheet', href='css/style.css', type='text/css')
     meta(charset='utf-8')
     title Home
-    <script src="https://use.fontawesome.com/238d193d1b.js"></script>
-    <script src="bower_components\jquery\dist\jquery.min.js"></script>
-    <script src="js/script.js"></script>
-    
+    script(src='https://use.fontawesome.com/238d193d1b.js')
+    script(src='bower_components\jquery\dist\jquery.min.js')
+    script(src='js/script.js')
+    script(src='https://use.typekit.net/boo7nrd.js')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+    script(src='https://use.typekit.net/hvd0xbp.js')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
   body
     nav.global.flex.flex--space-between.align-center
       .wrapper.flex.flex--space-between.rows.align-center
-        h3 MUNI <span>EATS</span>
+        h3 MUNI EATS
         .icons-flex.flex--center.align-center.rows
-          <a href="www.facebook.com"><i class="fa fa-facebook"></i></a>
-          <a href="www.twitter.com"><i class="fa fa-twitter"></i></a>
-          <a href="www.google.com"><i class"fa fa-google"></i></a>
-          <a href="www.google.com"><i class="fa fa-instagram"></i></a>
-        
-      
+          a(href='www.facebook.com')
+            i.fa.fa-facebook
+          a(href='www.twitter.com')
+            i.fa.fa-twitter
+          a(href='www.google.com')
+            i
+          a(href='www.google.com')
+            i.fa.fa-instagram
     header
-      .side-header.flex.flex--center.align-end.columns
+      .side-header.flex.flex--center.align-center.columns
         .container
-          h1.btm1 MUNI
-          h3.btm1 EATS
+          .short
+            a.mnav1(href='#')
+              p.m1(style='margin-right:120px;') CONTACT
+            a.mnav2(href='#')
+              p.m2 ABOUT
+            .logo
+              img.l1(src='images/logo.png')
+              p.m  MUNI
+              p.e  EATS
     section.taste.flex.flex--center.align-center.columns
       .flex-box.flex.flex--center.align-center.columns
-        h3 With <strong class="eats"> MUNI EATS</strong> you can <h3 class="taste"> taste</h3> 
-        p.btm the best from the <span class="west"> west</strong>
-      a.linker(href="mailto:munieats@gmail.comSubject=Placing%20Order" target="_top") Contact me
+        h3.topw
+          | WITH
+          strong.eats  MUNI EATS
+          |  YOU CAN
+        h3.taste  taste
+        p.btm
+          | THE BEST FROM THE
+          span.west  WEST
+      a.linker(href='mailto:munieats@gmail.com?Subject=Placing%20Order', target='_top') Contact me
     section.footer.flex.flex--center.align-center.columns.txt-center
-      p Hi my name is <strong class="ft"> aisha</strong>  for many years now i have been told to create a <strong class="ft"> catering service</strong> and i thought to myself there is no time like the present after asking all past
-        <strong class="ft"> customers</strong> about their past expeireneces with my service they have given me the following  <strong class="ft">feedback....</strong>
+      p.part0
+        | Hi,
+      p.part1
+        | My name is
+        strong.ft  Aisha
+        | ,
+      p.part2
+        | For many years now I have been told to create a
+        strong.ft  Catering Service
+        |  and I thought to myself there is no time like the present!
+      p.part3
+        | After asking all past
+        strong.ft  Customers
+        |  about their past expeireneces with my service they have given me the following
+      p.part4
+        strong.ft Feedback
+        | ....

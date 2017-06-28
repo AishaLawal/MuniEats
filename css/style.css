@@ -3715,8 +3715,7 @@ header {
 
 header .side-header {
   margin-right: 14pc;
-  margin-top: 0pc;
-  transform: translateX(1000px); }
+  margin-top: 0pc; }
 
 header .side-header h1, header .side-header h3, header .side-header h4 {
   padding: 0;
@@ -3764,16 +3763,12 @@ header .side-header h3 {
 .l1 {
   width: 250px;
   height: 350px;
-  margin-right: 1500px;
-  margin-top: -95px; }
+  margin-top: -2.6pc; }
 
 .m {
   font-family: "ff-prater-sans-web";
   letter-spacing: 4px;
-  font-size: 70px;
-  position: absolute;
-  top: 10px;
-  margin-left: 40px; }
+  font-size: 70px; }
 
 .e {
   font-family: "ff-prater-sans-web";
@@ -3860,9 +3855,6 @@ section.footer {
   color: white;
   letter-spacing: 5px; }
 
-p {
-  font-size: 30px; }
-
 strong {
   font-size: 60px;
   letter-spacing: 0px;
@@ -3875,6 +3867,38 @@ strong {
 .ft {
   font-family: "marydale";
   font-size: 35px; }
+
+.logo {
+  position: relative; }
+  .logo .logoText {
+    position: absolute;
+    top: 44%;
+    left: 9%;
+    font-family: "ff-prater-sans-web";
+    letter-spacing: 4px;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .logo p {
+    margin: 0;
+    padding: 0;
+    color: black; }
+    .logo p img {
+      margin-bottom: 0;
+      padding: 0;
+      z-index: -1; }
+
+.otherLink {
+  margin: 0 110px 0 110px;
+  font-family: "ff-prater-sans-web";
+  font-size: 14px;
+  color: black;
+  letter-spacing: 2px;
+  border-bottom: 4.5px solid;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center; }
 
 nav.global {
   background: #F7F8FC;

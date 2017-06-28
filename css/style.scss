@@ -8,6 +8,7 @@ $accent: #E9C225;
 $font: "Bree serif",serif;
 *{
   transition: .54s ease all;
+
 }
 body{
   font-family: "ff-prater-sans-web";
@@ -28,12 +29,13 @@ body{
     height:210px;
     background: #E8E6E6;
 
+
  }
     header .side-header {
 
       margin-right: 14pc;
       margin-top: 0pc;
-      transform: translateX(1000px); }
+      }
       header .side-header h1, header .side-header h3, header .side-header h4 {
         padding: 0;
         margin: 0; }
@@ -88,8 +90,7 @@ line-height: 25px;
 .l1{
   width: 250px;
   height: 350px;
-  margin-right: 1500px;
-margin-top: -95px;
+  margin-top: -2.6pc;
 
 
 }
@@ -97,9 +98,7 @@ margin-top: -95px;
 font-family: "ff-prater-sans-web";
 letter-spacing: 4px;
 font-size: 70px;
-position: absolute;
-top: 10px;
-margin-left: 40px;
+
 }
 
 .e{
@@ -198,9 +197,6 @@ letter-spacing: 2px;
     }
 }
 
-p{
-  font-size: 30px;
-}
 
       strong{
 
@@ -217,5 +213,46 @@ p{
   .ft{
     font-family: "marydale";
     font-size: 35px;
+  }
+  .logo{
+    position: relative;
+    p{
+
+    }
+    .logoText{
+      position: absolute;
+    top: 44%;
+    left: 9%;
+    font-family: "ff-prater-sans-web";
+    letter-spacing: 4px;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+    p{
+      margin: 0;
+      padding: 0;
+      color: black;
+
+      img{
+        margin-bottom: 0;
+        padding: 0;
+        z-index: -1;
+      }
+    }
+  }
+
+  .otherLink{
+      margin: 0 110px 0 110px;
+    font-family: "ff-prater-sans-web";
+    font-size: 14px;
+    color: black;
+    letter-spacing: 2px;
+    border-bottom: 4.5px solid;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
   }
 @import "nav.scss";
