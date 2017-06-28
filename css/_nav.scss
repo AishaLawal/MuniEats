@@ -1,0 +1,25 @@
+nav.global{
+  background: #F7F8FC;
+  padding: 29px;
+  .wrapper{
+    width: 90%;
+    margin: 0 auto;
+    h3{
+      letter-spacing: 4px;
+      font-size: 12px;
+    }
+  }
+  a{
+    color: black;
+    &:hover{
+      color: $accent;
+    }
+  }
+  .fa{
+    font-size: 12px;
+    padding: 0 30px;
+  }
+  span{
+    color: $accent;
+  }
+}

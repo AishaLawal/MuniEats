@@ -1,0 +1,27 @@
+{
+  "name": "flex sass",
+  "homepage": "https://github.com/HBT-Media/Flex-sass-",
+  "authors": [
+    "HBTMedia <adenaikeyomi@gmail.com>"
+  ],
+  "description": "",
+  "main": "_flex.sass",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "78e95e001a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "78e95e001ace9057bcf2ed6b03436642893ecd7f"
+  },
+  "_source": "https://github.com/HBT-Media/Flex-sass-.git",
+  "_target": "*",
+  "_originalSource": "flex-sass",
+  "_direct": true
+}

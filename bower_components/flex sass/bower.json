@@ -1,0 +1,17 @@
+{
+  "name": "flex sass",
+  "homepage": "https://github.com/HBT-Media/Flex-sass-",
+  "authors": [
+    "HBTMedia <adenaikeyomi@gmail.com>"
+  ],
+  "description": "",
+  "main": "_flex.sass",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
