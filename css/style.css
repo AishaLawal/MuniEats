@@ -3877,12 +3877,12 @@ strong {
     font-family: "ff-prater-sans-web";
     letter-spacing: 4px;
     font-size: 70px;
-    text-transform: uppercase;
-    font-weight: bold; }
+    text-transform: uppercase; }
   .logo p {
-    margin: 0;
+    margin: -10px 0 0 0;
     padding: 0;
-    color: black; }
+    color: black;
+    text-align: center; }
     .logo p img {
       margin-bottom: 0;
       padding: 0;
