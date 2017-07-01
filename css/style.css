@@ -5017,8 +5017,7 @@ template {
 body {
   font-family: "ff-prater-sans-web";
   margin: 0;
-  padding: 0;
-  background: #852812; }
+  padding: 0; }
 
 .flex {
   display: -webkit-box;
