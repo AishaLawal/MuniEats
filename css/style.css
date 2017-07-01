@@ -5213,10 +5213,10 @@ h3.topw {
 
 h3.taste {
   font-size: 120px;
-  font-family: flood-std, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 2px;
+  font-family: "Proxima nova",sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -12px;
   padding: 0;
   margin: 0;
   color: #535633; }
@@ -5225,7 +5225,10 @@ h3.taste {
   font-size: 90px;
   text-transform: uppercase;
   color: #aa6f1c;
-  font-family: "marydale"; }
+  font-weight: 300;
+  letter-spacing: -8px;
+  display: block;
+  padding-top: 30px; }
 
 .eats {
   color: black;
@@ -5361,7 +5364,7 @@ section.lockup-flex {
       background: #71210e;
       cursor: pointer; }
     section.lockup-flex .flex-unit h2 {
-      font-family: "Proxima Nova";
+      font-family: "Open sans",sans-serif;
       font-weight: 300;
       text-transform: uppercase;
       letter-spacing: 4px;

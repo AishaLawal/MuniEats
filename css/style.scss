@@ -113,7 +113,8 @@ margin-left: 55px;
   section.taste{
     background: #852812;
     height: 1000px;
-    margin: 0;
+    margin: 0
+
   }
     .flex-box{
       background: white;
@@ -141,10 +142,10 @@ margin-left: 55px;
       }
       h3.taste{
         font-size: 120px;
-        font-family: flood-std, sans-serif;
-font-style: normal;
-font-weight: 400;
-letter-spacing: 2px;
+      font-family: "Proxima nova",sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: -12px;
         padding: 0;
         margin: 0;
         color: #535633;
@@ -155,7 +156,11 @@ letter-spacing: 2px;
         font-size: 90px;
         text-transform: uppercase;
         color: #aa6f1c;
-        font-family: "marydale";
+        font-weight: 300;
+        letter-spacing: -8px;
+        display: block;
+        padding-top: 30px;
+
       }
       .eats{
         color: black;
