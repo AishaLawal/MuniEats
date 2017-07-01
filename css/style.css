@@ -5353,7 +5353,7 @@ section.lockup-flex {
   padding: 0;
   margin: 0; }
   section.lockup-flex .flex-unit {
-    background: #601C0C;
+    background: #222;
     color: white;
     padding: 10px 20px;
     -webkit-box-flex: 1;
